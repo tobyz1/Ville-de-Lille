@@ -29,8 +29,8 @@ p.subtitle{
 /* menu de navigation */
 nav.menu-nav{
     background-color: #ff1616;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
 }
 nav.menu-nav ul li.btn{
     padding: 5vw;
@@ -130,26 +130,30 @@ footer{
 /* Historique */
 
 h1.historique{
-    font-size: 2.5vw;
+    font-weight: 100;
+    font-size: 3vw;
     color: black;
     background-color: #ff3838;
-    font-weight: 100;
-    display: inline;
+    display: inline-block;
+    margin-left: 33%;
 }
 h2.historique{
     font-size: 2vw;
     color: black;
     background-color: #fc5c5c;
     font-weight: 100;
-    display: inline;
 }
 h3.historique{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     background-color: #f8b5b5;
     font-weight: 100;
+    display: inline;
 
 }
 p.hi{
-    font-size: O.8vw;
+    font-size: 1vw;
+}
+img.légende{
+    margin-left: 35%;
 }
 
