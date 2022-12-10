@@ -141,31 +141,46 @@ h2.historique{
     color: black;
     background-color: #fc5c5c;
     font-weight: 100;
+    margin-top: 2%;
 }
+h2.Title-ecarte{
+    font-size: 2vw;
+    color: black;
+    background-color: #fc5c5c;
+    font-weight: 100;
+    margin-top: 2%;
+}
+
 h3.historique{
     font-size: 1.3vw;
     background-color: #f8b5b5;
     font-weight: 100;
 }
 p.hi{
-    font-size: 1vw;
+    position: relative;
+    font-size: 1.2vw;
     padding-right: 30%;
    
     
 }
 img.légende{
+    padding-top: 1vh;
     position: absolute;
     margin-left: 82%;
     transform: translate(-50%);
-
 }
 
 section.hi{
     padding-top: 1%;
 }
+
 img.abba{
     position: absolute;
     margin-left: 82%;
-    margin-top: -12.5%;
+    margin-top: -13%;
     transform: translate(-50%);
+}
+
+div.hi-a{
+    margin-bottom: 3.6%;
 }
