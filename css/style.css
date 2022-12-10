@@ -130,12 +130,11 @@ footer{
 /* Historique */
 
 h1.historique{
+    display: inline-block;
     font-weight: 100;
     font-size: 3vw;
     color: black;
     background-color: #ff3838;
-    display: inline-block;
-    margin-left: 33%;
 }
 h2.historique{
     font-size: 2vw;
@@ -147,13 +146,26 @@ h3.historique{
     font-size: 1.3vw;
     background-color: #f8b5b5;
     font-weight: 100;
-    display: inline;
-
 }
 p.hi{
     font-size: 1vw;
+    padding-right: 30%;
+   
+    
 }
 img.légende{
-    margin-left: 35%;
+    position: absolute;
+    margin-left: 82%;
+    transform: translate(-50%);
+
 }
 
+section.hi{
+    padding-top: 1%;
+}
+img.abba{
+    position: absolute;
+    margin-left: 82%;
+    margin-top: -12.5%;
+    transform: translate(-50%);
+}
