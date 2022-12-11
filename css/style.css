@@ -1,14 +1,8 @@
+body{
+    background-color: #ddd;
+}
 /* Index */
-/* header */
-@font-face {
-    font-family: "font-1";
-    src: url( "\Font\NanumMyeongjo-Regular.ttf" );
-}
-  
-  body {
-    font-family: "font-1";
-}
-    
+/* header */    
 img.last{
     height: 10%;
     width: 10%;
@@ -75,6 +69,7 @@ div.bigbox{
 
 /* left box présentation */
 div.leftbox{
+    height: 85%;
     margin-right: 1.4vw;
     border: 1vw ridge red;
     width: 46%;
@@ -103,7 +98,8 @@ img.collage{
 
 /* Actualité */
 div.actu{
-    width: 48%;
+    margin-bottom: 0.2%;
+    width: 46%;
     border: 1vw ridge red;
     background-color: #fff;
     margin-left: 1vw;
@@ -126,8 +122,8 @@ p.actu{
     margin-left: 0.5vw;
 }
 iframe{
-    height: 88%;
-    width: 100%;
+    height: 85%;
+    width: 45vw;
 }
 
 /* footer */
@@ -173,6 +169,8 @@ p.hi{
     
 }
 img.légende{
+    width: 13vw;
+    height: auto    ;
     padding-top: 1vh;
     position: absolute;
     margin-left: 82%;
@@ -189,6 +187,8 @@ section.hi-alone{
 
 
 img.abba{
+    height: auto;
+    width: 10vw;
     position: absolute;
     margin-left: 82%;
     margin-top: -13%;
@@ -197,4 +197,86 @@ img.abba{
 
 div.hi-a{
     margin-bottom: 3.6%;
+}
+
+
+/* Monument */
+div.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+}
+
+
+@keyframes mesImages{
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-200px);
+    }
+    40%{
+        transform: translateX(-845px);
+    }
+    60%{
+        transform: translateX(-1390px);
+    }
+    80%{
+        transform: translateX(-1700px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+} 
+
+div#caroussel1{
+    margin-bottom: -2vh;
+    position: relative;
+    height: 46vh;
+    width: 52vw;
+    overflow: auto;
+    border-left: 24vw solid rgba(117, 117, 117, 0.180);
+    border-right: 23vw solid rgba(117, 117, 117, 0.180);
+}
+
+
+div.monument{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+img.monument1{
+    width: 34%;
+    height: auto;
+    margin-right: 1%;
+   
+}
+img.monument2{
+   width: 80%;
+   margin-left: 1%;
+   margin-right: 1%;
+  
+}
+img.monument3{
+    width: 73%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+img.monument4{
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+img.monument5{
+    width: 72%;
+    margin-left: 1%;
+    margin-right: 1%;
+   
 }
