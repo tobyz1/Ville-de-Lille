@@ -208,6 +208,7 @@ div.images{
     animation-iteration-count: infinite;
     position: absolute;
     left: 0;
+    z-index: 2;
 }
 
 
@@ -216,21 +217,23 @@ div.images{
         transform: translateX(0);
     }
     20% {
-        transform: translateX(-200px);
+        transform: translateX(-130px);
     }
     40%{
-        transform: translateX(-845px);
+        transform: translateX(-800px);
     }
     60%{
-        transform: translateX(-1390px);
+        transform: translateX(-1300px);
     }
     80%{
-        transform: translateX(-1700px);
+        transform: translateX(-1600px);
     }
     100%{
         transform: translateX(0);
     }
 } 
+
+
 
 div#caroussel1{
     margin-bottom: -2vh;
@@ -243,6 +246,7 @@ div#caroussel1{
 }
 
 
+
 div.monument{
     display: flex;
     justify-content: center;
@@ -251,32 +255,30 @@ div.monument{
 }
 
 img.monument1{
-    width: 34%;
+    width: 30%;
     height: auto;
-    margin-right: 1%;
-   
+    margin-right: 1%;   
 }
+
 img.monument2{
-   width: 80%;
    margin-left: 1%;
    margin-right: 1%;
-  
 }
 img.monument3{
     width: 73%;
     margin-left: 1%;
     margin-right: 1%;
-    
 }
 img.monument4{
     width: 32%;
     margin-left: 1%;
     margin-right: 1%;
-    
 }
 img.monument5{
     width: 72%;
     margin-left: 1%;
     margin-right: 1%;
-   
 }
+
+
+/* Actu et contact */
