@@ -1,5 +1,14 @@
 /* Index */
 /* header */
+@font-face {
+    font-family: "font-1";
+    src: url( "\Font\NanumMyeongjo-Regular.ttf" );
+}
+  
+  body {
+    font-family: "font-1";
+}
+    
 img.last{
     height: 10%;
     width: 10%;
@@ -148,7 +157,7 @@ h2.Title-ecarte{
     color: black;
     background-color: #fc5c5c;
     font-weight: 100;
-    margin-top: 2%;
+    margin-top: -3%;
 }
 
 h3.historique{
@@ -160,7 +169,7 @@ p.hi{
     position: relative;
     font-size: 1.2vw;
     padding-right: 30%;
-   
+    text-align: center;
     
 }
 img.légende{
@@ -173,6 +182,11 @@ img.légende{
 section.hi{
     padding-top: 1%;
 }
+section.hi-alone{
+    padding-top: 1%;
+    margin-bottom: -3%;
+}
+
 
 img.abba{
     position: absolute;
