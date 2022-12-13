@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="..\css\style.css">
     <link rel="icon" href="..\img\logo.png">
-</head> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+</head> 
+<!--  -->
 <body>
 <!-- haut de page -->
     <header>
@@ -29,16 +31,55 @@
     </header>
     
 <!-- corps d'écriture -->
-<main>
-    
 
-</main>
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center mt-4 mb-4">
+                <h2 class="text-danger bg-dark pb-1">Rester en contact</h2>
+                <p class="lead mt-3">Une question à poser ? Remplissez le formulaire pour que je puisse vous recontactez au plus vite. </p>
+            </div> 
+            <div classe="row justify-content-center my-5"> 
+                <div class="align-middle col-6 m-auto"> 
+                    <form>
+                        <label for="email" class="form-label mb-0">Email:</label>
+                            <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="basic-addon1">
+                        
+                        
+
+                        <label for="name" class="form-label mb-0">Prenom et Nom:</label>
+                        <input type="text" class="form-control" id="name" placeholder="ex: Francis Dupont">
+                    
+                        <label for="subject" class="form-label pt-4 pb-4">Quel est le propos de votre question...</label>
+                        <select name="form-selct" id="subject">
+                                <option  selected disabled>Liste de choix...</option>
+                                <option value="Administratif">Administratif</option>
+                                <option value="Tourism">Tourisme</option>
+                                <option value="Autre">Autre</option>
+                        </select>
+
+                       
+                        <div class="form-floating">
+                            <label for="query" class="pt-0">Votre question...</label>
+                            <textarea id="query" class="form-control" style="height: 120px"> </textarea>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary mt-4">Valider</button>
+                        </div>
+                      
+                    </form>
+                </div>
+        </div>
+    </section>
+
+
 <!-- footer -->
 <footer>
     <p>
         Copyright &copy; Victor vitse - 2022-2023 - All right Reserved
     </p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 

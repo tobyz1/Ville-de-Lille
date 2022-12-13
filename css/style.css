@@ -6,6 +6,7 @@
 *{
     font-family: 'Noto Sans JP', sans-serif;
 }
+
 body{
     background-color: #ddd;
 }
@@ -314,3 +315,4 @@ img.monument5{
     color: black;
     background-color: rgba(221, 221, 221, 0.7);
 }
+
