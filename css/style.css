@@ -47,14 +47,18 @@ nav.menu-nav ul li.btn{
     padding: 5vw;
     display: inline;
 }
+nav.menu-nav ul{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 nav.menu-nav ul li.btn a{
     font-size: 2vw;
     font-weight: 300;
     color: black;
+    margin-left: -0.6%;
     text-decoration: none;
-    margin-left: -4%;
-    padding-inline-end: 0.6%;
-    padding-inline-start: 0.6%;
+    padding-inline-end: auto;
+    padding-inline-start: auto;
     border-radius: 5px;
     transition: 0.3s;
     z-index: 1;
@@ -287,4 +291,26 @@ img.monument5{
 }
 
 
-/* Actu et contact */
+/* Carousel d'image */
+#carouselExampleCaptions{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0%;
+    transition-duration: 1s;
+}
+.carousel-indicators img{
+    width: 100%;
+    height: auto;
+}
+#carouselExampleCaptions h5{
+    color: black;
+    background-color: rgba(221, 221, 221, 0.7);
+    
+}
+#carouselExampleCaptions p{
+    color: black;
+    background-color: rgba(221, 221, 221, 0.7);
+}
