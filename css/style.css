@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url(../Font/NotoSansJP-Light.otf);
+}
+
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 body{
     background-color: #ddd;
 }
@@ -86,7 +94,6 @@ a.box:hover{
     transition: 0.6s;
 }
 p.box{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1vw;
     color: black;
     margin-left: 0.5vw;
@@ -101,7 +108,7 @@ div.actu{
     margin-bottom: 0.2%;
     width: 46%;
     border: 1vw ridge red;
-    background-color: #fff;
+    background-color: #ddd;
     margin-left: 1vw;
 }
 a.actu{
@@ -116,7 +123,6 @@ a.actu:hover{
     transition: 0.6s;
 }
 p.actu{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1vw;
     color: black;
     margin-left: 0.5vw;
