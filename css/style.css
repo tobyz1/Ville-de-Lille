@@ -347,3 +347,47 @@ img.monument5{
     justify-content: center;
     padding-top: 1.8%;
 }
+a.social-media :hover{
+    padding: 10%;
+}
+
+h1.title-galerie{
+    margin-top: 1%;
+    margin-bottom: -1%;
+    margin-left: 2%;
+    transform: translateX(50%);
+    padding: 0.2%;
+    border-radius: 0.4rem;
+    width: 16%;
+    font-size: 2.2vw;
+    background-color: red;
+    color: rgb(33 37 41);
+}
+div.pictures-galerie{
+    margin-top: 2%;
+    grid-template-areas: 1fr 1fr 1fr
+                         1fr 1fr 1fr
+                         0fr 1fr 0fr;
+    justify-content: center;
+}
+.top-lane{
+    border: solid 4px rgba(33, 37, 41, 0.5);
+    margin-left: 2%;
+}
+.top-lane-c{
+    border: solid 4px rgba(33, 37, 41, 0.5);
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.mid-lane{
+    border: solid 4px rgba(33, 37, 41, 0.5);
+}
+.mid-lane-l{
+    border: solid 4px rgba(33, 37, 41, 0.5);
+    margin-left: 2%;
+}
+.bot-lane{
+    border: solid 4px rgba(33, 37, 41, 0.5);
+   margin-left: 49%;
+   transform: translateX(-50%);
+}
